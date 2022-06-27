@@ -73,8 +73,7 @@ jobs:
             echo DB_PORT=${{ secrets.DB_PORT }} >> .env
             sudo docker-compose up -d
             sudo docker-compose exec web python manage.py migrate
-            cd api_yamdb
-            python manage.py collectstatic
+            sudo docker-compose exec web python manage.py collectstatic
             sudo systemctl daemon-reload
             sudo systemctl restart gunicorn
             sudo systemctl status gunicorn
