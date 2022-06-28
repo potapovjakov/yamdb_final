@@ -1,6 +1,7 @@
 # Это <span style="color:darkred">Ya</span>mdb. Данный портал собирает отзывы пользователей на различные книги, фильмы и музыку.
 
 ![YAmDB](https://github.com/potapovjakov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+- Посмотреть запущенный проект можно по ссылке - [Yamdb](http://lamerok.sytes.net)
 
 ## Как запустить проект на своей машине:
 Клонируйте репозиторий и перейдите в него в командной строке:
