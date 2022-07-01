@@ -9,6 +9,11 @@ urlpatterns = [
         name='index'
     ),
     path(
+        '',
+        TemplateView.as_view(template_name='yamdb.html'),
+        name='yamdb'
+    ),
+    path(
         'redoc/',
         TemplateView.as_view(template_name='api/redoc.html'),
         name='redoc'
