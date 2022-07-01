@@ -10,7 +10,7 @@ urlpatterns = [
     ),
     path(
         'yamdb/',
-        TemplateView.as_view(template_name='yamdb.html'),
+        TemplateView.as_view(template_name='second.html'),
         name='yamdb'
     ),
     path(
