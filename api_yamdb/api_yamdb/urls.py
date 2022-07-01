@@ -9,7 +9,7 @@ urlpatterns = [
         name='index'
     ),
     path(
-        '',
+        'yamdb',
         TemplateView.as_view(template_name='yamdb.html'),
         name='yamdb'
     ),
