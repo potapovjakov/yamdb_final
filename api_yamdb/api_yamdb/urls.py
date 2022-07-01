@@ -18,6 +18,6 @@ urlpatterns = [
         TemplateView.as_view(template_name='api/redoc.html'),
         name='redoc'
     ),
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
 ]
