@@ -1,7 +1,16 @@
 # Это <span style="color:darkred">Ya</span>mdb. Данный портал собирает отзывы пользователей на различные книги, фильмы и музыку.
 
+## Технологии:
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+
 ![YAmDB](https://github.com/potapovjakov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-- Посмотреть запущенный проект можно по ссылке - [Yamdb](http://lamerok.sytes.net)
+- Посмотреть запущенный проект можно по ссылке - [Yamdb](http://potapovjakov.ru/yamdb)
 
 ## Как запустить проект на своей машине:
 Клонируйте репозиторий и перейдите в него в командной строке:
