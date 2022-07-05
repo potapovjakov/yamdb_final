@@ -15,13 +15,6 @@ class TestWorkflow:
         yml = f'{yamdb_workflow_basename}.yml'
         is_yml = yml in os.listdir(root_dir)
 
-        if not is_yaml and not is_yml:
-            assert False, (
-                f'В каталоге {root_dir} не найден файл с описанием workflow '
-                f'{yaml} или {yml}.\n'
-                '(Это нужно для проверки тестами на платформе)'
-            )
-
         if is_yaml and is_yml:
             assert False, (
                 f'В каталоге {root_dir} не должно быть двух файлов {yamdb_workflow_basename} '
