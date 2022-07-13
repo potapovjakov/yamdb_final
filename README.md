@@ -103,4 +103,4 @@ docker-compose exec web python manage.py createsuperuser
 ####Полный функционал API и примеры запросов можно посмотреть в браузере в документации по адресу http://127.0.0.1/redoc/
 
 ---
-***Выполнил [Потапов Яков](https://github.com/potapovjakov) при поддержке [Яндекс Практикума](https://practicum.yandex.ru/)***
+***Выполнили [Никита Ильин](https://github.com/ilinne), [Алексей Лагунов](https://github.com/sapp1507/) и [Потапов Яков](https://github.com/potapovjakov)***
